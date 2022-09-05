@@ -2,24 +2,21 @@ html {
     height: 100%;
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) no-repeat;
+    cursor: none;
 }
 
 #title {
     position: absolute;
-    top: 15%;
+    top: 4%;
     left: 0;
     right: 0;
-    color: #fff;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 300;
     font-size: 100px;
-    letter-spacing: 10px;
-    margin-top: -50px;
-    padding-left: 10px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     #title {
         font-size: 60px;
     }
@@ -592,6 +589,16 @@ html {
     16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
+}
+
+.point{
+    width: 6px;
+    height: 6px;
+    box-shadow: 0 0 #888;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px 3px #3e6389;
 }
 
 @keyframes animStar {
