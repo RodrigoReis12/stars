@@ -2,7 +2,7 @@
 
 # stars
 
-Projeto feito para treinar **HTML** e **CSS**.
+Project made to train **HTML**, **CSS** and **Javascript**.
 
 ## Link 
 
